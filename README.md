@@ -114,6 +114,14 @@ The procedural steps of this lab consist of the following four tasks:
 </div>
 <p align="center">Figure 8 Fritzing of the whole experiment</p>
 
-The following flowchart is a complete step and idea of our experiment.
+**The following flowchart is a complete step and idea of our experiment:**
+
+<div align=center>
+<img src="https://github.com/manzitlo/IoT-Realtime-GPS-Tracking-System/blob/main/images/Experiment%20Details%20Steps.png" width="200px" />
+</div>
+<p align="center">Figure 9 Experiment Details Steps</p>
+
+We've learnt through experience that it's important to first check whether the GPS is receiving a signal. Our GPS modules are unable to receive GPS signals in many circumstances since the school library and many apartments can’t let us receive the GPS signals. Therefore, the first step in our group's experiments was to evaluate the order in which the modules were used: first, identify whether the GPS can receive signals, then link the OLED to the required code to check whether the GPS data is shown correctly, and last, connect the inserted SD card. The card reader module accesses the SD card with the card reading code to assess if there is an error based on the first two sections being satisfied; finally, by adding and modifying the code to realize the operation of data uploading to Google Firebase. Figure 10 shows the physical wiring diagram for our project.
+
 
 
