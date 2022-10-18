@@ -12,6 +12,9 @@ With the technology developing, GPS has been deeply integrated into our life, wh
 
 The Arduino Nano 33 IoT is the easiest and cheapest entry point to enhance existing devices to become part of IoT and design piconet applications. This section will summarize the two major features of Arduino: Wi-Fi module and main processor.
 
+<div align=center>
 <img src="https://cdn.shopify.com/s/files/1/0506/1689/3647/products/ABX00027_03.front_643x483.jpg?v=1626445295"  width="300px" /> 
+  </div>
+  
 The board's main processor is a 32-bit SAMD21. It runs at a maximum frequency of 48MHz and achieves 2.46 CoreMark®/MHz. They are designed for easy and intuitive migration, with the same peripheral modules. Therefore, during the initial stage of the whole experiment, we installed Arduino SAMD Core by using Boards Manager on the Arduino professional software according to the specification and number of the NANO33's processor. Figure 2 shows Boards Manger which includes NANO 33 installation.
 
