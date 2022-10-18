@@ -19,6 +19,8 @@ Table of Contents
 
     - [Proposed system & Design Ideas](#Proposed-system-&-Design-Ideas)
     - [Hardware selection](#Hardware-selection)
+ 
+- [Introduction to wiring diagram and test process](#Introduction-to-wiring-diagram-and-test-process)
 
 
 # Overview of Arduino Nano 33 IoT
