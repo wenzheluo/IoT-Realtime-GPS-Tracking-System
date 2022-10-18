@@ -48,3 +48,5 @@ We have learned how to display hardware data on OLED (such as reading temperatur
 
 ## b. Hardware selection
 
+### [1] GPS BN-220
+In the choice of GPS module, we use Beitian's BN-220. The BN-220 GPS module has a TTL dual GPS Glonass navigation system, as well as a flash + GPS passive antenna. At the same time, the BN220 GPS module offers a significant advantage: it features a flash memory that saves the setup, eliminating the need to re-enter the data. 
