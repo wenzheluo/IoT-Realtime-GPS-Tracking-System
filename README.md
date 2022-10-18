@@ -109,3 +109,11 @@ The procedural steps of this lab consist of the following four tasks:
 3) Upload the code to the correctly wired Arduino nano 33 and observe the light status of each module (such as the orange light of Arduino and the red light of BN-220).
 4) Observe the transmission changes of data in real time (observe SD card and GOOGLE firebase) and get the result report.
 
+<div align=center>
+<img src="https://github.com/manzitlo/IoT-Realtime-GPS-Tracking-System/blob/main/images/Fritzing%20of%20the%20whole%20experiment.png" width="350px" />
+</div>
+<p align="center">Figure 8 Fritzing of the whole experiment</p>
+
+The following flowchart is a complete step and idea of our experiment.
+
+
