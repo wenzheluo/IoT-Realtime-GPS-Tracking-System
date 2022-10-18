@@ -80,3 +80,30 @@ Regarding the choice of OLED module, we chose the 0.96" OLED display module prod
 ### [3] Micro-SD Reader Adapter Slot Socket Module
 In order to successfully read the SD card, we used the Micro-SD/TF Memory Card Reader Adapter Slot Socket Module produced by pzsmocn. The module has a self-eject TF (Micro SD) card slot. The specification is a 2.54mm pitch 9Pin single-row header, which supports SDIO and SPI interfaces. At the same time, the DC 3.3V working voltage, the working current is about 10mA. Because the data format is txt format (will not take up a lot of memory), the SD card used in our experiment is 32G storage size.
 
+<div align=center>
+<img src="https://github.com/manzitlo/IoT-Realtime-GPS-Tracking-System/blob/main/images/Micro-SD%20Memory%20Card%20Reader.png" width="350px" />
+</div>
+<p align="center">Figure 7 Micro-SD/TF Memory Card Reader Adapter Slot Socket Module</p>
+
+
+## Introduction to wiring diagram and test process
+The procedural steps of this lab consist of the following four tasks:
+
+**Hardware:** 
+1) Arduino Nano 33 IoT;
+2) GPS BN-220;
+3) OLED Display;
+4) Micro-SD reader Adapter Slot Socket;
+5) 32G SD card.
+
+**Software: Arduino**
+
+**Platform: Google Firebase**
+
+**PC system: Windows 10/11**
+
+1) Analyze the matching status of hardware and software platforms, check whether all relevant libraries have been installed, and check the correctness of the code.
+2) Make sure each piece of hardware is wired correctly to the Arduino nano 33 pins. The Figure 8 shows the fritzing of wiring diagram.
+3) Upload the code to the correctly wired Arduino nano 33 and observe the light status of each module (such as the orange light of Arduino and the red light of BN-220).
+4) Observe the transmission changes of data in real time (observe SD card and GOOGLE firebase) and get the result report.
+
