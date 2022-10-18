@@ -139,3 +139,13 @@ After connecting the SD card and linking Micro-SD reader Adapter Slot Socket, th
 </div>
 <p align="center">Figure 11 the OLED display state of the result</p>
 
+<div align=center>
+<img src="https://github.com/manzitlo/IoT-Realtime-GPS-Tracking-System/blob/main/images/All%20GPS%20data%20sending%20to%20SD%20card%20(txt%20form).png" width="880px">
+</div>
+<p align="center">Figure 12 All GPS data sending to SD card (txt form)</p>
+
+It has been proved by practice that there is no problem in importing our GPS data, the code is correct, the GPS module is in good condition, and the wiring of the Arduino Nano 33 has no problems.
+
+The last step, we try to connect to Google Firebase and observe the data changes. We are running a Realtime database service provided by Firebase. Before uploading to google firebase, we need to add the reference URL and the Database Secrets in the project settings to the code with installing the libraries Firebase_Arduino_WiFiNINA and Arduino_JSON. The Figure 13 shows the real-time data status of browsing firebase web pages with a computer. One real-time data is uploaded every second. We can see through the pictures that the specific information of the subdirectories is clearly displayed. At the same time, we also tried to log in to firebase with a mobile phone to observe the data changes. 
+
+
