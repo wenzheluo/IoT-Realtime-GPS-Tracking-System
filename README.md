@@ -148,4 +148,13 @@ It has been proved by practice that there is no problem in importing our GPS dat
 
 The last step, we try to connect to Google Firebase and observe the data changes. We are running a Realtime database service provided by Firebase. Before uploading to google firebase, we need to add the reference URL and the Database Secrets in the project settings to the code with installing the libraries Firebase_Arduino_WiFiNINA and Arduino_JSON. The Figure 13 shows the real-time data status of browsing firebase web pages with a computer. One real-time data is uploaded every second. We can see through the pictures that the specific information of the subdirectories is clearly displayed. At the same time, we also tried to log in to firebase with a mobile phone to observe the data changes. 
 
+<div align=center>
+<img src="https://github.com/manzitlo/IoT-Realtime-GPS-Tracking-System/blob/main/images/Realtime%20Database%20status.png" width="880px">
+</div>
+<p align="center">Figure 13 Realtime Database status</p>
+
+Similarly, we can see that the real-time data is clearly displayed on the mobile phone web page through Figure 14. This gives us a lot of convenience. We can give this set of positioning devices to minors to protect their personal safety. Once there is a problem with the data or the latitude and longitude address is wrong, we can find the problem in time through the mobile phone. 
+The result of our experiment met the expectations, and the next chapter will describe the difficulties and obstacles we encountered during the experiment.
+
+
 
