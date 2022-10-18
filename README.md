@@ -50,3 +50,12 @@ We have learned how to display hardware data on OLED (such as reading temperatur
 
 ### [1] GPS BN-220
 In the choice of GPS module, we use Beitian's BN-220. The BN-220 GPS module has a TTL dual GPS Glonass navigation system, as well as a flash + GPS passive antenna. At the same time, the BN220 GPS module offers a significant advantage: it features a flash memory that saves the setup, eliminating the need to re-enter the data. 
+
+<div align=center>
+<img src="https://github.com/manzitlo/IoT-Realtime-GPS-Tracking-System/blob/main/images/Hardware%20of%20BN-220%20(Pin%20Description).png" width=350px" />
+</div>
+<p align="center">Figure 5 Hardware of BN-220 (Pin Description)</p>
+
+### [2] Pin distribution on the back of OLED
+Regarding the choice of OLED module, we chose the 0.96" OLED display module produced by UCTRONICS, its advantage is that the screen size meets our experimental requirements, and it is suitable for Arduino, its specifications are: 12864 128x64 pixels SSD1306 I2C serial mini screen, it contains yellow and blue.
+
