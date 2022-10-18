@@ -21,6 +21,7 @@ Table of Contents
     - [Hardware selection](#Hardware-selection)
  
 - [Introduction to wiring diagram and test process](#Introduction-to-wiring-diagram-and-test-process)
+- [Experimental results](#Experimental-results)
 
 
 # Overview of Arduino Nano 33 IoT
@@ -88,7 +89,7 @@ In order to successfully read the SD card, we used the Micro-SD/TF Memory Card R
 <p align="center">Figure 7 Micro-SD/TF Memory Card Reader Adapter Slot Socket Module</p>
 
 
-## Introduction to wiring diagram and test process
+# Introduction to wiring diagram and test process
 The procedural steps of this lab consist of the following four tasks:
 
 **Hardware:** 
@@ -123,5 +124,10 @@ The procedural steps of this lab consist of the following four tasks:
 
 We've learnt through experience that it's important to first check whether the GPS is receiving a signal. Our GPS modules are unable to receive GPS signals in many circumstances since the school library and many apartments can’t let us receive the GPS signals. Therefore, the first step in our group's experiments was to evaluate the order in which the modules were used: first, identify whether the GPS can receive signals, then link the OLED to the required code to check whether the GPS data is shown correctly, and last, connect the inserted SD card. The card reader module accesses the SD card with the card reading code to assess if there is an error based on the first two sections being satisfied; finally, by adding and modifying the code to realize the operation of data uploading to Google Firebase. Figure 10 shows the physical wiring diagram for our project.
 
+<div align=center>
+<img src="https://github.com/manzitlo/IoT-Realtime-GPS-Tracking-System/blob/main/images/Physical%20wiring%20diagram.jpg" width="350px" />
+</div>
+<p align="center">Figure 10 Physical wiring diagram</p>
 
+# Experimental results
 
