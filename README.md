@@ -156,5 +156,7 @@ The last step, we try to connect to Google Firebase and observe the data changes
 Similarly, we can see that the real-time data is clearly displayed on the mobile phone web page through Figure 14. This gives us a lot of convenience. We can give this set of positioning devices to minors to protect their personal safety. Once there is a problem with the data or the latitude and longitude address is wrong, we can find the problem in time through the mobile phone. 
 The result of our experiment met the expectations, and the next chapter will describe the difficulties and obstacles we encountered during the experiment.
 
-
-
+<div align=center>
+<img src="https://github.com/manzitlo/IoT-Realtime-GPS-Tracking-System/blob/main/images/Realtime%20Database%20status%20by%20using%20iPhone.png" width="250px">
+</div>
+<p align="center">Figure 14 Realtime Database status by using iPhone</p>
