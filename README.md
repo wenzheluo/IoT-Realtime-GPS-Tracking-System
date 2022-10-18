@@ -4,7 +4,7 @@ This project revolves around GPS positioning. The purpose is to observe the user
 
 **Key words: Arduino Nano 33 IoT, GPS BN-220, SD Card Reader Adapter, Google Firebase**
 
-# I. Introduction
+# Introduction
 
 With the technology developing, GPS has been deeply integrated into our life, whether it is driving or checking tourist attractions. There are many GPS modules, in this experiment, we choose the BN-220 module. Through the combination of GPS BN-220 module and Arduino nano 33 IoT, we can also interact with GPS data. The ultimate purpose of our experiment is to collect the user's location in real time, and the data can be sent to Google firebase when there is a network (and a backup of the data to the SD card). However, when the network is missing or the network signal is weak, we can also record the data in the SD card. We use the concept of IoT with Google firebase to observe Realtime data collected by positioning GPS in time. As an integrated hardware and software system, it improves system accuracy and reduces overall power consumption. This article is divided into four parts, including the design concept, hardware selection, research results, and difficulties in the experiments. 
 
@@ -14,11 +14,11 @@ Table of Contents
 
 ------------------------------
 
-- [Overview of Arduino Nano 33 IoT](#II.-Overview-of-Arduino-Nano-33-IoT)
-- [Design and Configuration](#III.-Design-and-Configuration)
+- [Overview of Arduino Nano 33 IoT](#Overview-of-Arduino-Nano-33-IoT)
+- [Design and Configuration](#Design-and-Configuration)
 
 
-# II. Overview of Arduino Nano 33 IoT
+# Overview of Arduino Nano 33 IoT
 
 The Arduino Nano 33 IoT is the easiest and cheapest entry point to enhance existing devices to become part of IoT and design piconet applications. This section will summarize the two major features of Arduino: Wi-Fi module and main processor.
 
@@ -45,7 +45,7 @@ The Wi-Fi and Bluetooth connections of Arduino Nano 33 IoT are performed by u-bl
 
 <p align="center">Figure 3 Installation of WIFI NINA library</p>
 
-# III.	Design and Configuration
+# Design and Configuration
 
 ## a. Proposed system & Design Ideas
 
