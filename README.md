@@ -72,3 +72,11 @@ In the choice of GPS module, we use Beitian's BN-220. The BN-220 GPS module has 
 ### [2] Pin distribution on the back of OLED
 Regarding the choice of OLED module, we chose the 0.96" OLED display module produced by UCTRONICS, its advantage is that the screen size meets our experimental requirements, and it is suitable for Arduino, its specifications are: 12864 128x64 pixels SSD1306 I2C serial mini screen, it contains yellow and blue.
 
+<div align=center>
+<img src="https://github.com/manzitlo/IoT-Realtime-GPS-Tracking-System/blob/main/images/Pin%20distribution%20on%20the%20back%20of%20OLED.png" width=350px" />
+</div>
+<p align="center">Figure 6 Pin distribution on the back of OLED</p>
+
+### [3] Micro-SD Reader Adapter Slot Socket Module
+In order to successfully read the SD card, we used the Micro-SD/TF Memory Card Reader Adapter Slot Socket Module produced by pzsmocn. The module has a self-eject TF (Micro SD) card slot. The specification is a 2.54mm pitch 9Pin single-row header, which supports SDIO and SPI interfaces. At the same time, the DC 3.3V working voltage, the working current is about 10mA. Because the data format is txt format (will not take up a lot of memory), the SD card used in our experiment is 32G storage size.
+
