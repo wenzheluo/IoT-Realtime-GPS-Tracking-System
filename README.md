@@ -133,3 +133,9 @@ We've learnt through experience that it's important to first check whether the G
 
 Through experiments, we learned that GPS BN-220 can only collect signals in a feasible environment. We've tested a lot of places, including spacious single-family homes, plazas and car parks. We found these locations to be able to collect GPS signals through the BN-220 module. So, we try to connect to a GPS signal before trying to get into a school library or an apartment building. During the first few minutes, the GPS continued to update the signal. After a certain point in time, the GPS positioning lost the connection (the red light was off), and both the OLED and the txt document changed the latitude and longitude data to 0.0000 after a certain point. However, all the previous data are saved. We have tested driving and walking to judge the speed change, and the results are correct. The Figure 11 shows the OLED display state (highlighted by yellow rectangle) in the normal state of the experiment (including latitude and longitude, speed, altitude, etc.)
 After connecting the SD card and linking Micro-SD reader Adapter Slot Socket, then running the code, the Arduino Nano 33 uploads all the data to the SD card in the form of txt. As shown in Figure 12, a string of txt text will be generated every second. The picture shows the test of moving the BN-220 to change the speed while standing still. We must pay attention to whether the speed unit is adjusted correctly in the code. The speed unit is also a very important part in our experiment.
+
+<div align=center>
+<img src="https://github.com/manzitlo/IoT-Realtime-GPS-Tracking-System/blob/main/images/the%20OLED%20display%20state%20of%20the%20result.jpg" width="300px">
+</div>
+<p align="center">Figure 11 the OLED display state of the result</p>
+
