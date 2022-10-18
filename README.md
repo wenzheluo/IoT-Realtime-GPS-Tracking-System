@@ -16,6 +16,8 @@ Table of Contents
 
 - [Overview of Arduino Nano 33 IoT](#Overview-of-Arduino-Nano-33-IoT)
 - [Design and Configuration](#Design-and-Configuration)
+    - [Proposed system & Design Ideas](#a.Proposed-system-&-Design-Ideas)
+    - [Hardware selection](#b.Hardware-selection)
 
 
 # Overview of Arduino Nano 33 IoT
