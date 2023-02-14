@@ -1,5 +1,18 @@
 # IoT： Realtime GPS Tracking System
 
+
+<br>
+<br>
+<p align="center"> George Mason University </p>
+<p align="center"> Wenzhe Luo </p>
+<p align="center"> Chen Chen </p>
+<p align="center"> ECE-508 <b>Internet of Things</b> </p>
+<p align="center"> Spring 2022 </p>
+
+<br>
+
+## 
+
 This project revolves around GPS positioning. The purpose is to observe the user's positioning status, and to detect changes in speed and position in real time, so that users can have a security guarantee in specific occasions or in specific environments. This experiment should be divided into 3 major sections, GPS connection, real-time upload of GPS data to SD-card, and real-time upload of GPS data to Google Firebase under the condition of network.
 
 **Key words: Arduino Nano 33 IoT, GPS BN-220, SD Card Reader Adapter, Google Firebase**
